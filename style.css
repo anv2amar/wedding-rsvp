@@ -192,6 +192,7 @@ input#attending-no:checked + label.heart {
 
 .splash-content h1 {
   font-size: 3em;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .splash-content p {
@@ -563,8 +564,8 @@ body::before {
 }
 
 .splash-logo {
-  width: 80px; /* adjust as needed */
+  width: 200px;  /* or try 150px if you want it more prominent */
   height: auto;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   animation: fadeIn 1s ease-in-out;
 }
